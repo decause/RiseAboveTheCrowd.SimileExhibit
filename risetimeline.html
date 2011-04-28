@@ -53,6 +53,10 @@
             padding:    1em;
             text-align: center;
         }
+        div.search {
+            float: right;
+            width: 100;
+        }
     </style>
   </head> 
   <body>
@@ -62,6 +66,7 @@
       <li><a href="/exhibit/">Exhibit</a></li>
       <li><span>Examples: MIT Nobel Prize Winners</span></li>
     </ul>
+
 
     <div id="main-content">
         <div id="title-panel">
@@ -79,7 +84,16 @@
                 <td><div ex:role="facet" ex:expression=".discipline" ex:facetLabel="Discipline"></div></td>
                 <td><div ex:role="facet" ex:expression=".relationship" ex:facetLabel="Relationship"></div></td>
 
+
             </tr></table>
+    <strong>Search Bar</strong>
+      <table>
+          <tr>
+              <td width="250" align="right"> <div ex:role="facet" ex:facetClass="TextSearch"></div>
+          </td>
+          </tr>
+     </table>
+
         </div>
         <div ex:role="viewPanel" style="padding: 1em 0.5in;">
             <table ex:role="lens" class="nobelist" style="display: none;"><tr>
@@ -95,7 +109,6 @@
                 </td>
 
             </tr></table>
-
             <div ex:role="view"
                 ex:viewClass="Thumbnail"
                 ex:showAll="true"
