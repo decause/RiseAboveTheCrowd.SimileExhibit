@@ -1,7 +1,7 @@
 {
     types: {
-        "Nobelist" : {
-            pluralLabel: "Nobelists"
+        "Contributor" : {
+            pluralLabel: "Contributors"
         }
     },
     properties: {
@@ -10,37 +10,36 @@
         }
     },
     "items" : [
-        {   type :                  "Nobelist",
-            label :                 "Burton Richter",
-            discipline :            "Physics",
+        {   type :                  "Curator",
+            label :                 "David Pankoff",
+            discipline :            "Cary Library",
             shared :                "yes",
-            "last-name" :           "Richter",
-            "nobel-year" :          "1976",
-            relationship :          "alumni",
-            "co-winner" :           "Samuel C.C. Ting",
-            "relationship-detail" : "MIT S.B. 1952, Ph.D. 1956",
+            "last-name" :           "Pankoff",
+            "nobel-year" :          "2008-01",
+            relationship :          "advisor",
+            "relationship-detail" : "?RIT M.L.S 1952?",
             imageURL :              "http://nobelprize.org/nobel_prizes/physics/laureates/1976/richter_thumb.jpg"
         },
-        {   type :                  "Nobelist",
-            label :                 "George A. Akerlof",
-            discipline :            "Economics",
+        {   type :                  "Director",
+            label :                 "Michael Riordan",
+            discipline :            "Open Publishing Lab",
             shared :                "yes",
-            "last-name" :           "Akerlof",
-            "nobel-year" :          "2001",
-            relationship :          "alumni",
+            "last-name" :           "Riordan",
+            "nobel-year" :          "2008-01",
+            relationship :          "Director",
             "relationship-detail" : "MIT Ph.D. 1966",
             imageURL :              "http://nobelprize.org/nobel_prizes/economics/laureates/2001/akerlof_thumb.jpg"
         },
-        {   type :                  "Nobelist",
-            label :                 "William Shockley",
-            discipline :            "Physics",
+        {   type :                  "Student",
+            label :                 "Matthew Bernius",
+            discipline :            "Open Publishing Lab",
             shared :                "yes",
             "last-name" :           "Shockley",
             "nobel-year" :          "1956",
             relationship :          "alumni",
             "deceased" :            "yes",
             "relationship-detail" : "MIT Ph.D. 1936 (deceased)",
-            imageURL :              "http://nobelprize.org/nobel_prizes/physics/laureates/1956/shockley_thumb.jpg"
+            imageURL :              "http://nobelprize.org/nobel_prizes/physics/laureates/1956/shockley_thumb.jpg",
         },
         {   type :                  "Nobelist",
             label :                 "Daniel C. Tsui",
