@@ -1,7 +1,13 @@
 {
     types: {
         "Contributor" : {
-            pluralLabel: "Contributors"
+            pluralLabel: "Contributors",
+        "Event" : {
+            pluralLabel: "Events",
+        "Meeting" : {
+            pluralLabel: "Meetings"
+        }
+        }
         }
     },
     properties: {
@@ -13,12 +19,27 @@
         {   type :                  "Mentor",
             label :                 "Michael Riordan",
             discipline :            "Open Publishing Lab",
-            shared :                "yes",
             "last-name" :           "Riordan",
             "nobel-year" :          "2008-01",
             relationship :          "Director",
             "relationship-detail" : "Director and Product Owner",
             imageURL :              "http://nobelprize.org/nobel_prizes/economics/laureates/2001/akerlof_thumb.jpg"
+        },
+        {   type :                  "Meeting",
+            label :                 "Rise Meeting #1",
+            discipline :            "Team Meeting",
+            "nobel-year" :          "2008-02-05",
+            relationship :          "Meeting",
+            "relationship-detail" : "First Meeting of Rise above the Crowd",
+            url :                   "http://google.com"
+        },
+        {   type :                  "Event",
+            label :                 "Test Event #2",
+            discipline :            "Test Event",
+            "nobel-year" :          "2011-04-29",
+            relationship :          "Meeting",
+            "relationship-detail" : "First Meeting of Rise above the Crowd",
+            url :                   "http://www.rit.edu/studentaffairs/cab/springfestival"
         },
         {   type :                  "Advisor",
             label :                 "David Pankoff",
