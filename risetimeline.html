@@ -66,21 +66,20 @@
         }
     </style>
   </head> 
+
   <body>
     <ul id="path">
         <li><span><a href="http://rise.rit.edu">RIT Rise Above The Crowd Project</a></span></li>
       <li><a href="contributors.js" target="_blank">Exhibit JSON data file</a></li>
     </ul>
 
-
     <div id="main-content">
+
         <div id="title-panel" align="center">
             <img src="riselogolong.png" width="99%" height="50%">
             <!--The logo I want... <img src="riselogolong.png" width="99%" height="50%">-->
             <!--A Logo that works, but is not the right one...<img src="tumblr_rise_logo.png">-->
             <!--A Logo that works, is not the right one, and was created by trace path in inkscape...<img src="tumblr_rise_svg_logo.png">-->
-
-            </p>
         </div>
 
         <div id="top-panels">
@@ -88,18 +87,17 @@
                 <td><div ex:role="facet" ex:expression=".discipline" ex:facetLabel="Discipline"></div></td>
                 <td><div ex:role="facet" ex:expression=".relationship" ex:facetLabel="Role"></div></td>
                 <td><div ex:role="facet" ex:expression=".type" ex:facetLabel="Type"></div></td>
-
-
             </tr></table>
-    <strong>Search Bar</strong>
-      <table>
-          <tr>
-              <td width="250" align="right"> <div ex:role="facet" ex:facetClass="TextSearch"></div>
-          </td>
-          </tr>
-     </table>
 
+        <strong>Search Bar</strong>
+          <table>
+              <tr>
+                  <td width="250" align="right"> <div ex:role="facet" ex:facetClass="TextSearch"></div>
+              </td>
+              </tr>
+         </table>
         </div>
+
         <div ex:role="viewPanel" style="padding: 1em 0.5in;">
             <table ex:role="lens" class="contributor" style="display: none;"><tr>
                 <td><img ex:src-content=".imageURL" /></td>
@@ -124,13 +122,14 @@
                     <a ex:href-content=".url" target="_blank" >
                     <div><span ex:content=".label"></span></div>
                     </a>
+
                     <div>
                         <span ex:content=".discipline" class="discipline"></span>, 
                         <span ex:content=".date" class="year"></span>
                     </div>
-
                 </div>
             </div>
+
             <div ex:role="view"
                 ex:label="Details"
                 ex:viewClass="Tile"
@@ -138,6 +137,7 @@
                 ex:orders=".discipline, .date"
                 ex:possibleOrders=".label, .last-name, .discipline, .relationship, .date">
             </div>
+
             <div ex:role="view"
                 ex:viewClass="Timeline"
                 ex:start=".date"
@@ -152,8 +152,8 @@
                     <a ex:href-content=".url" target="_blank" >
                     <div><span ex:content=".label"></span></div>
                     </a>
-                    <div>
 
+                    <div>
                         <span ex:content=".discipline" class="discipline"></span>, 
                         <span ex:content=".date" class="year"></span>
                     </div>
