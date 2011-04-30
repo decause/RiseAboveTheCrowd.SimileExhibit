@@ -16,13 +16,16 @@
 
     <!--Cream  Grey   Olive  Orange Copper Maroon-->
     <!--FFFFCC CBCB98 979941 986632 663300 330000-->
+    <!--main-content background, with a proper logo, will be background: #CBCB98-->
 
     <style>
 
         #main-content { background: #FFFFCC;
                         color:      #330000;
         }
-        #title-panel { padding: 0.25in 0.5in; }
+        #title-panel { padding: 0.25in 0.5in;
+                       background: #FFFFCC;
+        }
         #top-panels {
             padding:        0.5em 0.5in;
             border-top:     1px solid #986632;
@@ -34,7 +37,7 @@
         .exhibit-tileView-body { list-style: none; }
         .exhibit-collectionView-group-count { display: none; }
 
-        table.nobelist {
+        table.contributor {
             border:     1px solid #ddd;
             padding:    0.5em;
         }
@@ -46,7 +49,7 @@
             color:  #888;
         }
 
-        div.nobelist-thumbnail {
+        div.contributor-thumbnail {
             float:      left;
             width:      13em;
             height:     10em;
@@ -57,7 +60,7 @@
             margin:     0.5em;
             text-align: center;
         }
-        div.nobelist-timeline-lens {
+        div.contributor-timeline-lens {
             padding:    1em;
             text-align: center;
         }
@@ -65,21 +68,18 @@
   </head> 
   <body>
     <ul id="path">
-      <li><a href="/">SIMILE Widgets</a></li>
-
-      <li><a href="/exhibit/">Exhibit</a></li>
-      <li><span>RIT Rise Above The Crowd Project</span></li>
+        <li><span><a href="http://rise.rit.edu">RIT Rise Above The Crowd Project</a></span></li>
+      <li><a href="contributors.js" target="_blank">Exhibit JSON data file</a></li>
     </ul>
 
 
     <div id="main-content">
-        <div id="title-panel">
-            <h1>The Rise Above The Crowd Project</h1>
-            <p>The information within this page has been retrieved from
-                <a href="http://web.mit.edu/newsoffice/special/nobels.html" target="_blank">this MIT official source</a>
+        <div id="title-panel" align="center">
+            <img src="riselogolong.png" width="99%" height="50%">
+            <!--The logo I want... <img src="riselogolong.png" width="99%" height="50%">-->
+            <!--A Logo that works, but is not the right one...<img src="tumblr_rise_logo.png">-->
+            <!--A Logo that works, is not the right one, and was created by trace path in inkscape...<img src="tumblr_rise_svg_logo.png">-->
 
-                while the thumbnails are included from <a href="http://nobelprize.org/" target="_blank">Nobelprize.org</a>.
-                Here is the <a href="contributors.js" target="_blank">Exhibit JSON data file</a>.
             </p>
         </div>
 
@@ -101,14 +101,14 @@
 
         </div>
         <div ex:role="viewPanel" style="padding: 1em 0.5in;">
-            <table ex:role="lens" class="nobelist" style="display: none;"><tr>
+            <table ex:role="lens" class="contributor" style="display: none;"><tr>
                 <td><img ex:src-content=".imageURL" /></td>
                 <td>
                     <div ex:content=".label" class="name"></div>
 
                     <div>
                         <span ex:content=".discipline" class="discipline"></span>, 
-                        <i ex:content=".nobel-year"></i>
+                        <i ex:content=".date"></i>
                     </div>
                     <div ex:content=".relationship-detail" class="relationship"></div>
                 </td>
@@ -118,13 +118,15 @@
                 ex:viewClass="Thumbnail"
                 ex:showAll="true"
                 ex:orders=".discipline"
-                ex:possibleOrders=".label, .last-name, .discipline, .relationship, .nobel-year">
-                <div ex:role="exhibit-lens" class="nobelist-thumbnail" style="display: none;">
+                ex:possibleOrders=".label, .last-name, .discipline, .relationship, .date">
+                <div ex:role="exhibit-lens" class="contributor-thumbnail" style="display: none;">
                     <img ex:src-content=".imageURL" />
+                    <a ex:href-content=".url" target="_blank" >
                     <div><span ex:content=".label"></span></div>
+                    </a>
                     <div>
                         <span ex:content=".discipline" class="discipline"></span>, 
-                        <span ex:content=".nobel-year" class="year"></span>
+                        <span ex:content=".date" class="year"></span>
                     </div>
 
                 </div>
@@ -133,19 +135,19 @@
                 ex:label="Details"
                 ex:viewClass="Tile"
                 ex:showAll="true"
-                ex:orders=".discipline, .nobel-year"
-                ex:possibleOrders=".label, .last-name, .discipline, .relationship, .nobel-year">
+                ex:orders=".discipline, .date"
+                ex:possibleOrders=".label, .last-name, .discipline, .relationship, .date">
             </div>
             <div ex:role="view"
                 ex:viewClass="Timeline"
-                ex:start=".nobel-year"
+                ex:start=".date"
                 ex:colorKey=".discipline"
                 ex:topBandUnit="month"
                 ex:bottomBandUnit="year"
                 ex:topBandPixelsPerUnit="33"
                 ex:bubbleWidth="150"
                 ex:bubbleHeight="150">
-                <div ex:role="lens" class="nobelist-timeline-lens" style="display: none;">
+                <div ex:role="lens" class="contributor-timeline-lens" style="display: none;">
                     <img ex:src-content=".imageURL" />
                     <a ex:href-content=".url" target="_blank" >
                     <div><span ex:content=".label"></span></div>
@@ -153,7 +155,7 @@
                     <div>
 
                         <span ex:content=".discipline" class="discipline"></span>, 
-                        <span ex:content=".nobel-year" class="year"></span>
+                        <span ex:content=".date" class="year"></span>
                     </div>
                 </div>
             </div>
