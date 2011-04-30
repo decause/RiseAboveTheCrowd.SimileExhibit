@@ -1,8 +1,8 @@
 <html>
   <head>
     <title>SIMILE Widgets | Exhibit | RiseAboveTheCrowd</title>
-    <link rel='stylesheet' href='http://www.simile-widgets.org/styles/common.css' type='text/css' />
-    <!--<link rel='stylesheet' href='common.css' type='text/css' />-->
+    <!--<link rel='stylesheet' href='http://www.simile-widgets.org/styles/common.css' type='text/css' />-->
+    <link rel='stylesheet' href='common.css' type='text/css' />
 
     <link href="contributors.js" type="application/json" rel="exhibit/data" />
 
@@ -14,14 +14,21 @@
     <script src="http://api.simile-widgets.org/exhibit/2.2.0/extensions/time/time-extension.js" type="text/javascript"></script>
     <!--<script src="time-extension.js" type="text/javascript"></script>-->
 
+    <!--Cream  Grey   Olive  Orange Copper Maroon-->
+    <!--FFFFCC CBCB98 979941 986632 663300 330000-->
+
     <style>
-        #main-content { background: white; }
+
+        #main-content { background: #FFFFCC;
+                        color:      #330000;
+        }
         #title-panel { padding: 0.25in 0.5in; }
         #top-panels {
             padding:        0.5em 0.5in;
-            border-top:     1px solid #BCB79E;
-            border-bottom:  1px solid #BCB79E;
-            background:     #FBF4D3;
+            border-top:     1px solid #986632;
+            border-bottom:  1px solid #986632;
+            background:     #CBCB98;
+            color:      #330000;
         }
 
         .exhibit-tileView-body { list-style: none; }
@@ -44,7 +51,8 @@
             width:      13em;
             height:     10em;
             border:     1px solid #BCB79E;
-            background: #F0FFF0;
+            background: #979941;
+            color:      #330000;
             padding:    1em;
             margin:     0.5em;
             text-align: center;
@@ -60,7 +68,7 @@
       <li><a href="/">SIMILE Widgets</a></li>
 
       <li><a href="/exhibit/">Exhibit</a></li>
-      <li><span>Examples: MIT Nobel Prize Winners</span></li>
+      <li><span>RIT Rise Above The Crowd Project</span></li>
     </ul>
 
 
@@ -78,7 +86,8 @@
         <div id="top-panels">
             <table width="100%"><tr>
                 <td><div ex:role="facet" ex:expression=".discipline" ex:facetLabel="Discipline"></div></td>
-                <td><div ex:role="facet" ex:expression=".relationship" ex:facetLabel="Relationship"></div></td>
+                <td><div ex:role="facet" ex:expression=".relationship" ex:facetLabel="Role"></div></td>
+                <td><div ex:role="facet" ex:expression=".type" ex:facetLabel="Type"></div></td>
 
 
             </tr></table>
@@ -138,7 +147,9 @@
                 ex:bubbleHeight="150">
                 <div ex:role="lens" class="nobelist-timeline-lens" style="display: none;">
                     <img ex:src-content=".imageURL" />
+                    <a ex:href-content=".url" target="_blank" >
                     <div><span ex:content=".label"></span></div>
+                    </a>
                     <div>
 
                         <span ex:content=".discipline" class="discipline"></span>, 
