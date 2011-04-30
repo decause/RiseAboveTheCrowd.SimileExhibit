@@ -15,8 +15,8 @@ dissapoint. Shout out to the MIT Media Lab http://media.mit.edu for releasing
 the source under a permissive license such as BSD, and writing such useful
 tools.
 
-Original License
-================
+License
+=======
 
  Copyright (c) 2011 RemyD <remyd@civx.us>
  
