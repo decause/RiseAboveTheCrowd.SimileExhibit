@@ -382,7 +382,7 @@
             url :                   "rise040111.txt"
         },
         {   type :                  "Team Meeting",
-            label :                 "Miamoto's Pyramid, & Feature Breakdown",
+            label :                 "Miamoto's Pyramid & Feature Breakdown",
             discipline :            "Team Meeting",
             date :                  "2011-01-07",
             relationship :          "Team Meeting",
