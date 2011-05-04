@@ -85,7 +85,7 @@
         <div id="top-panels">
             <table width="100%"><tr>
                 <td><div ex:role="facet" ex:expression=".discipline" ex:facetLabel="Discipline"></div></td>
-                <td><div ex:role="facet" ex:expression=".relationship" ex:facetLabel="Role"></div></td>
+                <td><div ex:role="facet" ex:expression=".relationship" ex:facetLabel="Project Role"></div></td>
                 <td><div ex:role="facet" ex:expression=".type" ex:facetLabel="Type"></div></td>
             </tr></table>
 
@@ -125,6 +125,7 @@
 
                     <div>
                         <span ex:content=".relationship-detail" class="relationship-detail"></span> 
+                        <span ex:content=".date" class="year"></span><br/>
                     </div>
                 </div>
             </div>
@@ -139,11 +140,15 @@
 
             <div ex:role="view"
                 ex:viewClass="Timeline"
+                ex:timelineHeight="900"
                 ex:start=".date"
-                ex:colorKey=".discipline"
+                ex:colorKey=".type"
                 ex:topBandUnit="month"
+                ex:topBandHeight="90"
                 ex:bottomBandUnit="year"
-                ex:topBandPixelsPerUnit="33"
+                ex:bottomBandHeight="10"
+                ex:bottomBandPixelsPerUnit="63"
+                ex:topBandPixelsPerUnit="53"
                 ex:bubbleWidth="150"
                 ex:bubbleHeight="150">
                 <div ex:role="lens" class="contributor-timeline-lens" style="display: none;">
@@ -153,6 +158,7 @@
                     </a>
 
                     <div>
+                        <span ex:content=".date" class="year"></span><br/>
                         <span ex:content=".relationship-detail" class="relationship-detail"></span>
                     </div>
                 </div>
