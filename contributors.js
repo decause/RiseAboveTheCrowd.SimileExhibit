@@ -224,7 +224,7 @@
         {   type :                  "Contributor",
             label :                 "Nathaniel Case",
             department :            "FOSS@RIT",
-            discipline :            "Developer",
+            discipline :            "Developer/Designer",
             "last-name" :           "Case",
             date :                  "2011-03",
             role :                  "Developer/Designer",
