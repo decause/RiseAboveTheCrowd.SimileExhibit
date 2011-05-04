@@ -24,7 +24,7 @@
         #main-content { background: #FFFFCC;
                         color:      #330000;
         }
-        #title-panel { padding: 0.25in 0.5in;
+        #title-panel { 
                        background: #FFFFCC;
         }
         #top-panels {
@@ -79,7 +79,7 @@
     <div id="main-content">
 
         <div id="title-panel" align="center">
-            <img src="riselogolong.png" width="50%" height="25%">
+            <img src="riselogo.png" >
             <!--The logo I want... <img src="riselogolong.png" width="99%" height="50%">-->
             <!--A Logo that works, but is not the right one...<img src="tumblr_rise_logo.png">-->
             <!--A Logo that works, is not the right one, and was created by trace path in inkscape...<img src="tumblr_rise_svg_logo.png">-->
@@ -120,9 +120,34 @@
 
             </tr></table>
             <div ex:role="view"
+                ex:viewClass="Timeline"
+                ex:timelineHeight="900"
+                ex:start=".date"
+                ex:colorKey=".type"
+                ex:topBandUnit="month"
+                ex:topBandHeight="90"
+                ex:bottomBandUnit="year"
+                ex:bottomBandHeight="10"
+                ex:bottomBandPixelsPerUnit="63"
+                ex:topBandPixelsPerUnit="68"
+                ex:bubbleWidth="150"
+                ex:bubbleHeight="150">
+                <div ex:role="lens" class="contributor-timeline-lens" style="display: none;">
+                    <img ex:src-content=".imageURL" />
+                    <a ex:href-content=".url" target="_blank" >
+                    <div><span ex:content=".label"></span></div>
+                    </a>
+
+                    <div>
+                        <span ex:content=".date" class="year"></span><br/>
+                        <span ex:content=".relationship-detail" class="relationship-detail"></span>
+                    </div>
+                </div>
+            </div>
+            <div ex:role="view"
                 ex:viewClass="Thumbnail"
                 ex:showAll="true"
-                ex:orders=".discipline"
+                ex:orders=".type"
                 ex:possibleOrders=".label, .last-name, .discipline, .relationship, .date">
                 <div ex:role="exhibit-lens" class="contributor-thumbnail" style="display: none;">
                     <img ex:src-content=".imageURL" />
@@ -132,8 +157,6 @@
 
                     <div>
                         <span ex:content=".relationship-detail" class="relationship-detail"></span> 
-                        <span ex:content=".date" class="year"></span><br/>
-
                     </div>
                 </div>
             </div>
@@ -157,31 +180,6 @@
               </div>
 -->
 
-            <div ex:role="view"
-                ex:viewClass="Timeline"
-                ex:timelineHeight="900"
-                ex:start=".date"
-                ex:colorKey=".type"
-                ex:topBandUnit="month"
-                ex:topBandHeight="90"
-                ex:bottomBandUnit="year"
-                ex:bottomBandHeight="10"
-                ex:bottomBandPixelsPerUnit="63"
-                ex:topBandPixelsPerUnit="53"
-                ex:bubbleWidth="150"
-                ex:bubbleHeight="150">
-                <div ex:role="lens" class="contributor-timeline-lens" style="display: none;">
-                    <img ex:src-content=".imageURL" />
-                    <a ex:href-content=".url" target="_blank" >
-                    <div><span ex:content=".label"></span></div>
-                    </a>
-
-                    <div>
-                        <span ex:content=".date" class="year"></span><br/>
-                        <span ex:content=".relationship-detail" class="relationship-detail"></span>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
   </body>
