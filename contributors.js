@@ -38,7 +38,7 @@
             "relationship-detail" :   "Mentor and Product Owner",
             "url" :                   "http://opl.rit.edu",
             "person" :                "Michael Riordan",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/economics/laureates/2001/akerlof_thumb.jpg",
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Matthew Bernius",
@@ -50,7 +50,7 @@
             "relationship-detail" :   "Developer and Future Mentor",
             "url" :                   "http://www.mattbernius.com",
             "person" :                "Matthew Bernius",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/physics/laureates/1956/shockley_thumb.jpg",
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "John Karahalis",
@@ -63,7 +63,7 @@
             "relationship-detail" :   "Theming, Modules, Site",
             "url" :                   "http://opl.rit.edu/researchers/current-students/john-karahalis/",
             "person" :                "John Karahalis",
-            "imageURL" :              "johnkreal.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Mark Newell",
@@ -76,7 +76,7 @@
             "relationship-detail" :   "Theming and Development, Co-op with Rochester Democrat & Chronicle",
             "url" :                   "http://www.markofthenewells.com",
             "person" :                "Mark Newell",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Remy DeCausemaker",
@@ -88,7 +88,7 @@
             "relationship-detail" :   "Facilitation of Meetings and Development. Touchstone for each discipline, for each team",
             "url" :                   "http://foss.rit.edu/blog/decause",
             "person" :                "Remy DeCausemaker",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Stephen Jacobs",
@@ -100,7 +100,7 @@
             "relationship-detail" :   "Faculty Advisor of FOSS@RIT, Professor of Interactive Games & Media",
             "url" :                   "http://gryphonscratches.blogspot.com",
             "person" :                "Stephen Jacobs",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Vic Perotti",
@@ -112,7 +112,7 @@
             "relationship-detail" :   "Professor RIT College of Business, Champion of Digital Business",
             "url" :                   "http://www.perotti.com",
             "person" :                "Vic Perotti",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Andrea Hickerson",
@@ -124,7 +124,7 @@
             "relationship-detail" :   "Professor RIT Department of Communication",
             "url" :                   "http://andreahickerson.blogspot.com",
             "person" :                "Andrea Hickerson",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Jaclyn Donner",
@@ -137,7 +137,7 @@
             "relationship-detail" :   "Jackie Designed everything from our Logos, to our icons and T-Shirts. She is a rockstar",
             "url" :                   "http://jackiedonner.tumblr.com",
             "person" :                "Jaclyn Donner",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Mark DeMayo",
@@ -150,7 +150,7 @@
             "relationship-detail" :   "As one of our few front-end developers with Drupal experience, Mark was really the lynchpin between the design and dev team.",
             "url" :                   "http://people.rit.edu/~mxd6823",
             "person" :                "Mark DeMayo",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Ariel Zamparini",
@@ -163,7 +163,7 @@
             "relationship-detail" :   "Working primarily in the back-end and module research, Ariel provided his Drupal expertise when he could",
             "url" :                   "http://arielzamparini.com",
             "person" :                "Ariel Zamparini",
-            "imageURL" :              "ariel.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Ben Vanderberg",
@@ -176,7 +176,7 @@
             "relationship-detail" :   "Ben's firm grasp of UI, web design, and Graffle was a boon to the Design team. He really shined as a Project Leader.",
             "url" :                   "http://www.benvanderberg.com",
             "person" :                "Ben Vanderberg",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Dustin Wright",
@@ -189,7 +189,7 @@
             "relationship-detail" :   "Dustin coordinated typography with Jackie, and produced many a mockup",
             "url" :                   "http://www.linkedin.com/pub/dustin-wright/1a/12a/257",
             "person" :                "Dustin Wright",
-            "imageURL" :              "dustin.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Matt Rogers",
@@ -202,7 +202,7 @@
             "relationship-detail" :   "Matt Straddled the line between designer and developer, and provided great perspective to the design team when it came to implementation",
             "url" :                   "http://matthewdrogers.com",
             "person" :                "Matt Rogers",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Josef Patoprsty",
@@ -215,7 +215,7 @@
             "relationship-detail" :   "Seppie, as he is affectionately known around the OPL, is a rock-solid PHP/Drupal Developer. Serious Heavy-lifter.",
             "url" :                   "http://imaginerit.ytmnd.com",
             "person" :                "Josef Patoprsty",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Guy Paddock",
@@ -227,7 +227,7 @@
             "relationship-detail" :   "Guy worked on the original Inews/MyNews Platforms. His familiarity with the code and the event truly helped during crunch-time",
             "url" :                   "https://twitter.com/#!/guypaddock",
             "person" :                "Guy Paddock",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Nathaniel Case",
@@ -240,7 +240,7 @@
             "relationship-detail" :   "Nate is an all-aroud Hacker. Front-end or back-end, he picked up serious slack and filled in where needed.",
             "url" :                   "http://whynotwingnut.blogspot.com",
             "person" :                "Nate Case",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Contributor",
             "label" :                 "Alex Gentile",
@@ -252,7 +252,7 @@
             "relationship-detail" :   "Alex did some stuff. Here is a description and some kind words.",
             "url" :                   "https://twitter.com/#!/AlexGentile",
             "person" :                "Alex Gentile",
-            "imageURL" :              "http://nobelprize.org/nobel_prizes/chemistry/laureates/1990/corey_thumb.jpg"
+            "imageURL" :              "person.png",
         },
         {   "type" :                  "Hackathon",
             "label" :                 "NightShift Hackathon II",
