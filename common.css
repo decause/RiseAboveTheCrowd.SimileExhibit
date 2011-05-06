@@ -58,7 +58,6 @@ img, a img {
     display: inline;
     padding-left: 13px;
     padding-right: 3px;
-    background-image: url(icons/arrow.gif);
     background-repeat: no-repeat;
     background-position: 1px 5px;
 }
