@@ -88,6 +88,7 @@
         <div id="top-panels">
             <table width="100%"><tr>
                 <td><div ex:role="facet" ex:expression=".department" ex:showMissing="false" ex:facetLabel="Department"></div></td>
+                <td><div ex:role="facet" ex:expression=".major" ex:showMissing="false" ex:facetLabel="Major"></div></td>
                 <td><div ex:role="facet" ex:expression=".role" ex:showMissing="false" ex:facetLabel="Role"></div></td>
                 <td><div ex:role="facet" ex:expression=".type" ex:facetLabel="Type"></div></td></tr></table>
         <strong>Search Bar</strong>
@@ -107,7 +108,7 @@
 
         <div ex:role="viewPanel" style="padding: 1em 0.5in;">
             <table ex:role="lens" class="contributor" style="display: none;"><tr>
-                <td><img ex:src-content=".imageURL" /></td>
+                <td><img ex:src-content=".imageURL" width="42" height="55"/></td>
                 <td>
                     <div ex:content=".label" class="name"></div>
 
@@ -150,7 +151,7 @@
                 ex:orders=".type"
                 ex:possibleOrders=".label, .last-name, .discipline, .relationship, .date">
                 <div ex:role="exhibit-lens" class="contributor-thumbnail" style="display: none;">
-                    <img ex:src-content=".imageURL" />
+                    <img ex:src-content=".imageURL" width="42" height="55"/>
                     <a ex:href-content=".url" target="_blank" >
                     <div><span ex:content=".label"></span></div>
                     </a>
