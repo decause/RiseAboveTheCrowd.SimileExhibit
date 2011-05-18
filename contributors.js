@@ -2,6 +2,8 @@
     "types" : {
         "Contributor" : {
             pluralLabel: "Contributors",
+        "Press" : {
+            pluralLabel: "Press",
         "Team Meeting" : {
             pluralLabel: "Team Meetings",
         "Dev Meeting" : {
@@ -14,6 +16,7 @@
             pluralLabel: "Events",
         "Hackathon" : {
             pluralLabel: "Hackathons"
+        }
         }
         }
         }
@@ -249,7 +252,7 @@
             "last-name" :             "Gentile",
             "date" :                  "2011-03",
             "role" :                  "Drupal Developer",
-            "relationship-detail" :   "Alex did some stuff. Here is a description and some kind words.",
+            "relationship-detail" :   "Alex was instrumental in the administration and deployment of the RiseAboveTheCrowd platform.",
             "url" :                   "https://twitter.com/#!/AlexGentile",
             "person" :                "Alex Gentile",
             "imageURL" :              "person.png",
@@ -640,6 +643,42 @@
             "relationship-detail" :   "First Test Event for our Platform - RIT Breezeway Battle of The Bands",
             "imageURL" :              "test.png",
             "url" :                   "http://events.rit.edu/event_detail.cfm?event_key=417920"
+        },
+        {   "type" :                  "Press",
+            "label" :                 "UNYStartups.com",
+            "discipline" :            "Press",
+            "date" :                  "2011-05-03",
+            "relationship" :          "Press",
+            "relationship-detail" :   "UNYStartups.com blog post on RiseAboveTheCrowd",
+            "imageURL" :              "test.png",
+            "url" :                   "http://unystartups.com/2011/05/04/rise-above-the-crowd-experimental-event-journalism-this-saturday-at-imagine-rit",
+        },
+        {   "type" :                  "Press",
+            "label" :                 "Democrat & Chronicle",
+            "discipline" :            "Press",
+            "date" :                  "2011-05-04",
+            "relationship" :          "Press",
+            "relationship-detail" :   "D&C online article on RiseAboveTheCrowd",
+            "imageURL" :              "test.png",
+            "url" :                   "http://www.democratandchronicle.com/article/20110506/GROUP01/110504007/Social-media-experiment-coming-Imagine-RIT",
+        },
+        {   "type" :                  "Press",
+            "label" :                 "Saunders College of Business Blog Post",
+            "discipline" :            "Press",
+            "date" :                  "2011-03-20",
+            "relationship" :          "Press",
+            "relationship-detail" :   "RiseAboveTheCrowd announced on RIT Saunders College of Business Blog",
+            "imageURL" :              "test.png",
+            "url" :                   "http://blogs.scb.rit.edu/vic/2011/03/20/rise-above-the-crowd-an-interactive-digital-side-channel-for-imagine-rit/",
+        },
+        {   "type" :                  "Press",
+            "label" :                 "YNN News Coverage",
+            "discipline" :            "Press",
+            "date" :                  "2011-05-04",
+            "relationship" :          "Press",
+            "relationship-detail" :   "YNN news coverage of RiseAboveTheCrowd",
+            "imageURL" :              "test.png",
+            "url" :                   "http://rochester.ynn.com/content/542154/25-000-thoughts-become-one-conversation-at-rit",
         },
         {   "type" :                  "Test Event",
             "label" :                 "RIT Spring Fest Test Event",
